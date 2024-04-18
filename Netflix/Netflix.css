@@ -1,0 +1,74 @@
+
+
+body{
+    background-image: url(https://www.larocknpop.com/wp-content/uploads/2022/02/NETFLIX_123658.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+}
+
+#logo {
+    width: 75px;
+    height: 75px;
+    /* margin-right: 300px; */
+}
+
+.boton {
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.boton:hover{
+    color: rgb(181, 0, 0)
+}
+
+.boton_2 {
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.boton_2:hover{
+    color: rgb(181, 0, 0)
+}
+
+.p{
+    color: white;
+    text-align: center;
+    margin: 18px;
+    line-height: 7px; 
+}
+
+
+#Grupo1 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1,5em;
+}
+
+#Grupo2 {
+    display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form label{
+    margin-right: 12px;
+    width: 75px; 
+    height: 100px; 
+}

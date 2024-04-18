@@ -4,11 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ntflix</title>
+  <link rel="stylesheet" href="Netflix.css">
 </head>
 <body>
-  <p>Hola mundo</p>
-  <p>
-    peliculas y series
-  </p>
+  <!--Logo de Netflix y boton de inicio de sesion-->
+  <header>
+    <div>
+      <img 
+      src="netflix-2-logo-svg.svg"
+      alt="Logo de Netflix" 
+      id="logo">
+    </div>
+    <div>
+      <button class="boton" >
+      Iniciar sesion
+      </button>
+    </div>
+  </header>
+  <!--titulo, dos parrafos-->
+  <main>
+    <div id="Grupo1">  
+      <h1 id="Titulo1" class="p">Películas y series ilimitadas y mucho más</h1>
+      <p id="parrafo1" class="p">Disfruta donde quieras. Cancela cuando quieras.</p>
+      <p id="parrafo2" class="p">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>
+    </div>
+    <!--formulario con el email y boton de comenzar-->
+    <div id="Grupo2">
+      <form class="form">
+        <label for="email">Email</label>
+        <input type="email">
+      </form>
+      <button class="boton_2">
+        Comenzar >
+      </button>
+    </div>
+  </main>
+  <hr class="Separador">
 </body>
 </html>
